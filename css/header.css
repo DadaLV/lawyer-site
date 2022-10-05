@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+.top_header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
+  background-color: antiquewhite;
+}
+
+.logo_main {
+  width: 65px;
+  height: 65px;
+}
+
+.phone {
+  text-decoration: none;
+  color: black;
+}
+
+.hamburger {
+  
+}
+
+.main_header_info {
+  background-image: url(/images/lawyer_background.jpg);
+  min-height: 400px;
+}
