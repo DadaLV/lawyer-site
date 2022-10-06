@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+h1 {
+  font-size: 40px;
+  color: rgb(56, 50, 44);
+}
+
+h3 {
+  font-size: 14px;
+  color: rgb(159, 129, 53);
+}
