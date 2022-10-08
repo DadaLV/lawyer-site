@@ -32,4 +32,7 @@
   margin: 24px 0px 0px;
   padding: 12px 16px;
   width: 195px;
+  color: rgb(159, 129, 53);
+  border: 1px solid #6b7280;
+  border-radius: 5px;
 }
