@@ -12,6 +12,8 @@
 
 .advice_item{
   margin-top: 36px;
+  box-shadow: 10px 10px 5px rgb(195, 197, 197);
+  max-width: 600px;
 }
 
 .advice_img{
@@ -28,6 +30,7 @@
 
 .article_name{
 margin-top: 20px;
+color: #6b7280;
 }
 
 .date{
