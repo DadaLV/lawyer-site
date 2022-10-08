@@ -1,0 +1,25 @@
+.about {
+  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.header_about {
+  font-size: 24px;
+  margin-top: 24px;
+  color: #2e353d;
+}
+
+.about_text {
+  margin-top: 24px;
+  font-size: 16px;
+  color: #6b7280;
+}
+
+/* .header_about {
+   
+} */
+
