@@ -21,3 +21,46 @@
   height: auto;
   max-width: 600px;
 }
+
+.card_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  box-shadow: 10px 10px 5px rgb(195, 197, 197);
+}
+
+.name {
+  font-size: 20px;
+  color: rgba(0,0,0,.85);
+  margin-top: 24px;
+}
+
+.underline {
+  width: 9rem;
+  height: 1px;
+  background-color: #2e353d;
+  margin-top: 20px;
+}
+
+.tean_item{
+  box-sizing: border-box;
+}
+
+.team_role{
+  color: #212529;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.team_role{
+  font-size: 16px;
+  margin-top: 20px;
+  color: #212529;
+}
+
+.list{
+  font-size: 16px;
+  margin-top: 20px;
+  color: #212529;
+}
