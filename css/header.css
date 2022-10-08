@@ -38,7 +38,6 @@
 }
 
 .main_header_info {
-  background-image: url(/images/lawyer_background.jpg);
   min-height: 400px;
 }
 
@@ -58,8 +57,15 @@ h1 {
   margin: 42px 0px 42px 0px;
 }
 
+.header_main_text {
+  width: 100%;
+  background-image: url(/images/lawyer_background.jpg);
+}
+
 .header_text {
   font-size: 16px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
   color: rgb(28, 26, 20);
   margin: 32px 0px 0px;
 }
