@@ -43,6 +43,19 @@
   margin-top: 20px;
 }
 
+.line_gold{
+  /* width: 8rem;
+  margin: 24px;
+  border: 2px solid rgb(159, 129, 53);
+  background-color: rgb(159, 129, 53);
+  margin-top: 20px; */
+  
+  width: 9rem;
+  height: 2px;
+  margin: 2rem 0;
+  background-color:rgb(159, 129, 53);
+}
+
 .tean_item{
   box-sizing: border-box;
 }
