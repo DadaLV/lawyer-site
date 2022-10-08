@@ -1,3 +1,9 @@
+.advices{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .header_advices{
   font-size: 30px;
   margin-top: 56px;  
@@ -40,4 +46,14 @@ color: #6b7280;
   text-transform: none;
   font-style: italic;
   margin-top: 20px;
+}
+
+.service_btn_gold{
+  max-width: 250px;
+  margin: 32px 0px 32px 0px;
+  padding: 12px 16px;
+  color: white;
+  background-color: rgb(159, 129, 53);
+  border: 1px solid rgb(159, 129, 53);
+  border-radius: 5px;
 }
