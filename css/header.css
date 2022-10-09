@@ -85,6 +85,103 @@ max-width: 300px;
   color: rgb(159, 129, 53);
   border: 1px solid #6b7280;
   border-radius: 5px;
+  text-decoration: none;
+}
+
+.section_after_header {
+  background-image: url(../images/lawyer_background.jpg);
+  background-size: cover;
+  background-position: center;
+  /* min-height: 600px;
+  max-width: 1500px; */
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  margin: auto;
+  padding: 120px 15px;
+ 
+}
+
+.header__bottom__container {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  align-items:baseline;
+  text-align:justify;
+  width: 100%;
+  height: auto;
+  max-width: 550px;
+  border: 1px;
+  border-radius: 3px;
+  background-color: white;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-left: 20px;
+  height: 400px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  scroll-behavior: smooth;
+  max-height: auto;
+}
+
+
+.container__header__button {
+  display: flex;
+  flex-direction: row;
+  justify-content:baseline;
+  width: 100%;
+  padding-top: 40px;
+  box-sizing: border-box;
+  margin-bottom: 30 px;
   
 
+}
+
+
+@media (max-width:375px){
+  .header__bottom__container {
+      margin-left: 100px;
+      display: flex;
+      flex-direction: column;
+      flex:1;
+      align-items:baseline;
+      text-align:justify;
+      width: 100%;
+      max-width: 550px;
+      border: 1px;
+      border-radius: 3px;
+      background-color: white;
+      padding-top: 39px;
+      padding-bottom: 39px;
+      padding-left: 35px;
+      padding-right: 35px;
+      margin-left: 20px;
+      height: fit-content;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+      scroll-behavior: smooth;
+      max-height: auto;
+  }
+  .container__header__button {
+      display: flex;
+      flex-direction:column;
+      justify-content:flex-start;
+      left: 0;
+     
+  }
+ 
+}
+
+
+.header__bottom__header__bottom__text {
+  font-family: var(--h2-font-family);
+  font-size: 35px;
+  color: var(--text-color);
+}
+
+.container__header__button {
+  line-height: 30px;
 }
